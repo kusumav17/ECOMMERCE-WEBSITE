@@ -1,0 +1,157 @@
+.main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .sub-heading {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: gray;
+  }
+  .service-box {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .service-box img {
+    max-width: 60px;
+    margin-bottom: 20px;
+  }
+  .service-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .service-description {
+    color: #555;
+  }
+  .consultation-btn {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background-color: #ff5733;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .blue-background {
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+  }
+  .main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .sub-heading {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: gray;
+  }
+  .service-box {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .service-box img {
+    max-width: 60px;
+    margin-bottom: 20px;
+  }
+  .service-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .service-description {
+    color: #555;
+  }
+  .consultation-btn {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background-color: #ff5733;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .main-section {
+    background-color: #348fd2;
+    padding: 50px 0;
+    color: white;
+  }
+  .right-content h2 {
+    font-weight: bold;
+  }
+  .form-box {
+    background-color: #2b3e50;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+  }
+  .form-box h2 {
+    font-size: 1.5rem;
+    color: #ffc107;
+    margin-bottom: 20px;
+  }
+  .form-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .logo-carousel .carousel-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-carousel img {
+    max-width: 150px; 
+    height: auto;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.logo-carousel img:hover {
+    transform: scale(1.1); 
+}
+
+.logo-carousel .carousel-inner {
+    margin: 20px 0;
+}
+
+.process-section {
+    background-color: #f0f2f5; /* Grey background */
+    padding: 40px 0;
+    text-align: center;
+}
+.process-box {
+    background-color: #00a2e8; /* Blue background for boxes */
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}

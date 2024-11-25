@@ -1,0 +1,526 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    /* Vertically align items */
+    justify-content: space-between;
+}
+
+.content-section {
+    padding: 50px 0;
+}
+.content-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+.content-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Hide carousel controls */
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+
+.carousel-item {
+    transition: transform 0.2s ease-in-out;
+}
+
+.form-box {
+    color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #2b3d50;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.form-box h2 {
+    font-size: 20px; /* Reduced font size for the heading */
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+.form-box label {
+    font-size: 14px; /* Reduced label font size */
+}
+
+.form-box input[type="text"] {
+    padding: 8px; /* Reduced padding for inputs */
+    margin-bottom: 10px; /* Reduced space between input fields */
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.form-box button {
+    padding: 10px 20px; /* Reduced button padding */
+    font-size: 16px; /* Slightly reduced button font size */
+    border: none;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #0056b3;
+}
+
+/* Align form to the right */
+.right-align {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #2b3d50;
+    width: 100%; /* Make it responsive */
+    max-width: 500px; /* Limit form width */
+    margin: 0 auto; /* Center form in container */
+    min-height: 500px; /* Adjust height based on your layout */
+}
+
+.form-box form {
+    width: 100%; /* Ensure form fields take full width */
+}
+
+.form-box label {
+    font-size: 14px;
+}
+
+.form-box input[type="text"] {
+    width: 100%; /* Make input fields stretch to container width */
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.form-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #0056b3;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.question-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.question-section h2 {
+    color: #4A90E2; /* Blue color for the title */
+}
+
+.question-section p {
+    color: #666; /* Gray color for the paragraph */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.business-paragraph {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: bold;
+}
+.blue-text {
+    color: blue;
+}
+.black-text {
+    color: black;
+}
+.logos img {
+    max-width: 150px;
+    margin: 10px;
+}
+
+.et_pb_section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.et_pb_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.et_pb_column {
+    padding: 15px;
+}
+
+.et_pb_with_border {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.et_pb_text h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.awards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.award {
+    flex: 1;
+    max-width: 150px;
+    margin: 10px;
+}
+
+.award img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#digital-marketing-page {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+}
+#digital-marketing-page #heading {
+    font-weight: bold;
+    font-size: 24px;
+}
+#digital-marketing-page p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+#digital-marketing-page .btn-know-more {
+    margin-top: 30px;
+    background-color: #73ace9;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+#digital-marketing-page .btn-know-more:hover {
+    background-color: #0056b3;
+    color: white;
+}
+.img-thumbnail {
+    border: none;
+    margin-left: 140px;
+            display: block;
+
+}
+
+
+.service-item p {
+    font-size: 14px; /* Adjust paragraph text size */
+}
+
+.text-center {
+    color: grey; /* Makes the text grey */
+    font-size: 14px; /* Adjust font size */
+}
+.bold-black {
+    font-weight: bold;
+    color: black;
+}
+
+.image {
+    display: block;
+    margin-bottom: 20px; /* Adds spacing below the image */
+}
+
+.form {
+    margin-top: 20px; /* Adds spacing above the form */
+}
+
+.card-custom {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    height: 100%; /* Ensures that all cards have equal height */
+}
+
+.card-custom .card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon-img {
+    width: 60px;  /* Uniform size for all images */
+    height: auto;
+}
+.card-title {
+    font-weight: 700;
+}
+.row-equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-equal-height .col-md-3 {
+    display: flex;
+    flex-grow: 1;
+}
+.logo-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-container:hover {
+    transform: translateY(-5px);
+  }
+
+  .metrics-section h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.metrics-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+/* Styling for the testimonial thumbnails */
+#testi_locate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  
+  #testi_locate li {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+  
+  #testi_locate .active-tab .img-normal {
+    box-shadow: 0px 0px 14px 0px #2b3d50b8;
+  }
+  
+  #testi_locate .img-normal {
+    border-radius: 50%;
+    width: 100%;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 680px) {
+    #testi_locate li {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+    }
+  }
+ 
+  .process-item h4 {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white; /* Changed heading to white */
+  }
+  .process-item p {
+    color: white; 
+  }
+
+  {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.left-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.left-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-section {
+    flex: 2;
+    padding: 20px;
+}
+
+.faq-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the curved question box */
+.faq-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-button:hover, .faq-button.active {
+    background-color: #0056b3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* For the plus and minus icons */
+.faq-button .icon {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.accordion-content {
+    padding: 15px;
+    margin-top: 5px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hide the content */
+}
+
+.accordion-content p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+.footer-section {
+    background-color: #182941; /* Dark background */
+    color: #fff; /* White text */
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section address, .footer-section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+a {
+    color: #ffffff; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffdd00; /* Hover effect for links */
+}
+
+.contact-btn {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #3b8beb;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.form-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.form-section {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.form-section h3 {
+    font-weight: bold;
+    color: #1f7ed0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control,
+.btn {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #1f7ed0;
+    border-color: #1f7ed0;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #155fa0;
+    border-color: #155fa0;
+}
+
+.file-input {
+    display: flex;
+    align-items: center;
+}
+
+.file-input label {
+    margin-right: 10px;
+}
+
+/* Add some padding to the top */
+.container {
+    padding-top: 50px;
+}
